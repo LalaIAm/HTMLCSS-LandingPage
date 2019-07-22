@@ -62,7 +62,7 @@ section {
 .form-control {
     border: solid, 1px, #a0a0a0;
     display: block;
-    padding: 6px, 12px;
+    padding: 6px 12px;
     line-height: 1.4;
     color: #8598a2;
 }
