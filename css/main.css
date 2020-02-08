@@ -259,7 +259,7 @@ section {
 }
 
 .full-banner-image{
-    flex: 0 0 58.3333333%;
+    flex: 0 0 58.333333%;
     background-image: url('../img/vista.jpg');
     background-position: top center;
     background-size: cover;
@@ -276,7 +276,11 @@ section {
 }
 
 .full-banner-sidebar h4 {
-    font: 40px 700 italic #637f94 1;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 700;
+    color: #637f94;
+    line-height: 1;
 }
 
 .full-banner-sidebar h4:after{
@@ -303,5 +307,6 @@ section {
 .full-banner-sidebar .btn.btn-default{
     margin-top: 50px;
     text-transform: uppercase;
-    letter-spacing: 1;
+    letter-spacing: 1px;
+    z-index:1;
 }
